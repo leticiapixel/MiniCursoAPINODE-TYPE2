@@ -1,0 +1,15 @@
+Anotacoes MinicursoAPI-Node-Type2
+
+Projeto type -> gerar arquivo de configuração e descomentar ‘outdir’ ‘rootdir’e setar como src e dist
+
+Para rodar o projeto deve-se compilar primeiro com comando npx tsc e após isso executar o arquivo principal index.js , server,js por exemplo
+
+  "scripts": {
+    "dev": "ts-node-dev --inspect --ignore-watch node_modules src/server.ts"
+ -> script do package json para rodar o servidor apenas com ‘npm dev’ao invés de rodar com o comando ‘ts-node-dev --inspect --ignore-watch node_modules src/server.ts’
+
+import path from 'path'; -> biblioteca que facilita no tratamento de caminhos de arquivos
+
+npm i validator  ->. Biblioteca de validacao de email
+
+
